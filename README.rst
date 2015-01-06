@@ -18,3 +18,7 @@ Install and configure
 3. Install::
 
        $ python setup.py install
+
+4. Run::
+
+       $ rdalal
