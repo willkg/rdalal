@@ -8,17 +8,27 @@ Summary
 Installs rdalal on your system.
 
 
-Install and configure
-=====================
+Install
+=======
 
-1. Clone the repository.
+::
 
-2. Create a virtual environment.
+    $ pip install https://github.com/willkg/rdalal/archive/master.zip
 
-3. Install::
 
-       $ python setup.py install
+Install for development
+=======================
 
-4. Run::
+::
 
-       $ rdalal
+    $ git clone https://github.com/willkg/rdalal/
+    $ mkvirtualenv rdalal
+    $ pip install -e .
+
+
+Run
+===
+
+::
+
+    $ rdalal
