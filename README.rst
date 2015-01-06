@@ -11,8 +11,10 @@ Installs rdalal on your system.
 Install and configure
 =====================
 
-1. Create a virtual environment.
+1. Clone the repository.
 
-2. Install the dependencies::
+2. Create a virtual environment.
 
-       $ pip install rdalal
+3. Install::
+
+       $ python setup.py install
