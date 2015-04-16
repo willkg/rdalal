@@ -2,8 +2,7 @@ from setuptools import find_packages, setup
 import sys
 
 
-# Installing rdalal will open the video in your browser.
-if 'egg_info' in sys.argv or 'install' in sys.argv:
+if 'install' in sys.argv:
     import webbrowser
     webbrowser.open('https://www.youtube.com/watch?v=NMZcwXh7HDA', new=2, autoraise=True)
 
