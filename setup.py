@@ -9,7 +9,7 @@ if 'install' in sys.argv:
 
 setup(
     name='rdalal',
-    version='1.0',
+    version='1.1',
     description='Install some sweet Rehan',
     author='Will Kahn-Greene',
     author_email='willkg@bluesock.org',
