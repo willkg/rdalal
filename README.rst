@@ -26,8 +26,8 @@ Install for development
     $ pip install -e .
 
 
-Run
-===
+Run for some sweet tunes
+========================
 
 ::
 
